@@ -1,0 +1,13 @@
+[package]
+name = "test_fuzz_pkg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4.3"
+tokio = { version = "1", features = ["full"] }
+mqtt-v5 = { git = "https://github.com/Nereuxofficial/mqtt-broker", package = "mqtt-v5", branch = "dev" }
+bytes = "1"
+clap = { version = "4.1.6", features = ["derive"] }
