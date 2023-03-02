@@ -9,4 +9,4 @@ Provide packets in hexadecimal form and use the following flags:
 | `-p --packet` | Used to send a single packet to the broker                                |
 | `-f --file`   | Send a sequence of packets from a file (each line is treated as a packet) |
 | `--host`        | Set broker host. Defaults to `localhost`                                  |
-| `--port`        | Set broker port. Defaults to 1883                                         |
+| `--port`        | Set broker port. Defaults to `1883`                                         |
