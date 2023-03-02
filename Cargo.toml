@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 hex = "0.4.3"
 tokio = { version = "1", features = ["full"] }
-mqtt-v5 = { git = "https://github.com/Nereuxofficial/mqtt-broker", package = "mqtt-v5", branch = "dev" }
+mqtt-v5 = { git = "https://github.com/MCloudTT/mqtt-broker", package = "mqtt-v5", branch = "dev" }
 bytes = "1"
 clap = { version = "4.1.6", features = ["derive"] }
